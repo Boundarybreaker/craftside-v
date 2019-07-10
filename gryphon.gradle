@@ -1,11 +1,14 @@
 repositories {
     //mavenCentral, Fabric, Cotton, and CurseForge mavens are already included!
+    maven { url 'https://www.jitpack.io' }
+    maven { url "https://maven.jamieswhiteshirt.com/libs-release/" }
+    maven { url "https://mod-buildcraft.com/maven" }
 }
 ext {
     //What to call the pack in Mod Menu.
-    name = "Gryphon"
+    name = "Craftside V"
     //What to name the modpack jar. Will not affect the mod ID.
-    projectName = "gryphon"
+    projectName = "craftside-v"
     //The version of the modpack. Should be valid SemVer.
     version = "1.0.0"
 
@@ -18,14 +21,67 @@ ext {
     loaderVersion = "0.4.8+build.155"
 
     //Description of the modpack. Should be one or two sentences.
-    description = "A basic pack template."
+    description = "Modpack for the Craftside V server."
 
     //Put all the Maven identifiers of all your mods here, separated by commas.
     //They will be included in this dev environment as well as packed into the built jar.
     //You will need to also include all dependencies here, since nested jars don't nest deep.
     mavenMods = [
+            "alexiil.mc.lib:libblockattributes-all:0.4.9",
+            "com.github.artificemc:artifice:0.3.2",
+            "com.jamieswhiteshirt:rtree-3i-lite-fabric:0.3.0",
+            //TODO: update once cotton-resources and adorn are updated
+            "io.github.cottonmc:cotton:0.8.3-pre+1.14.3",
+            "io.github.cottonmc:cotton-resources:1.2.2+1.14.2",
+            "io.github.cottonmc:LibCD:1.3.0+1.14.3",
+            "io.github.cottonmc:SkillCheck:1.1.0+1.14.2",
+            "io.github.cottonmc:Templates:1.0.3+1.14.2",
+            "io.github.juuxel:polyester:0.3.1+1.14.3",
+            "io.github.prospector:modmenu:1.6.3+build.100",
             "net.fabricmc.fabric-api:fabric-api:0.3.0+build.191",
-            "io.github.prospector:modmenu:1.6.3+build.100"
+
+            curse.resolve("adorn", "2730689"),
+            curse.resolve("appleskin", "2714340"),
+            curse.resolve("arcanemagic", "2738456"),
+            curse.resolve("antique-atlas", "2732993"),
+            curse.resolve("anvil-fix", "2682329"),
+            curse.resolve("auto-config", "2713081"),
+            curse.resolve("blockus", "2725152"),
+            curse.resolve("block-meter", "2734468"),
+            curse.resolve("cloth", "2697577"),
+            curse.resolve("clothesline-fabric", "2736424"),
+            curse.resolve("composable-automation", "2716738"),
+            curse.resolve("cosmetic-armor-slots", "2733507"),
+            curse.resolve("cursed-chests", "2729338"),
+            curse.resolve("customskinloader", "2714923"),
+            curse.resolve("cutscene-api", "2711282"),
+            curse.resolve("datchat", "2735453"),
+            curse.resolve("desire-paths", "2734879"),
+            curse.resolve("dirt-to-path", "2736139"),
+            curse.resolve("engination-fabric", "2732432"),
+            curse.resolve("extra-pieces", "2738576"),
+            curse.resolve("fabriblocks", "2711979"),
+            curse.resolve("foamfix-for-minecraft", "2704799"),
+            curse.resolve("glassential-fabric", "2706748"),
+            curse.resolve("light-overlay", "2734244"),
+            curse.resolve("metatips", "2704916"),
+            curse.resolve("multiblock-api", "2696818"),
+            curse.resolve("okyanus", "2735367"),
+            curse.resolve("permafrost", "2724700"),
+            curse.resolve("protection-renewal", "2735941"),
+            curse.resolve("redstone-bits", "2710850"),
+            curse.resolve("roughly-enough-items", "2736489"),
+            curse.resolve("roughly-enough-resources", "2735117"),
+            curse.resolve("simpleharvest", "2680843"),
+            curse.resolve("smarter-mending", "2734633"),
+            curse.resolve("sneakthroughberries", "2729310"),
+            curse.resolve("stockpile", "2733579"),
+            curse.resolve("the-biome-overhaul", "2726735"),
+            curse.resolve("silk", "2701410"),
+            curse.resolve("tool-builder", "2726033"),
+            curse.resolve("towelette", "2726306"),
+            curse.resolve("tumble-dryer", "2702758"),
+            curse.resolve("voxelmap", "2730467")
     ]
     //Put the file names of any mod jars in "/libs" here, separated by commas.
     //In /libs, make sure you have both the dev and prod versions,
