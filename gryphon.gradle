@@ -62,6 +62,7 @@ ext {
             curse.resolve("engination-fabric", "2732432"),
             curse.resolve("extra-pieces", "2738576"),
             curse.resolve("fabriblocks", "2711979"),
+            curse.resolve("fish-traps", "2736473"),
             curse.resolve("foamfix-for-minecraft", "2704799"),
             curse.resolve("glassential-fabric", "2706748"),
             curse.resolve("light-overlay", "2734244"),
