@@ -65,7 +65,7 @@ ext {
             curse.resolve("foamfix-for-minecraft", "2704799"),
             curse.resolve("glassential-fabric", "2706748"),
             curse.resolve("light-overlay", "2734244"),
-            curse.resolve("locky", "2738689"),
+            curse.resolve("locky", "2738694"),
             curse.resolve("materialisation", "2735964"),
             curse.resolve("metatips", "2704916"),
             curse.resolve("multiblock-api", "2696818"),
