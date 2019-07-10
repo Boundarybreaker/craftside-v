@@ -1,13 +1,8 @@
 {
   "type": "composableautomation:exploding",
-  "ingredient": [
-    {
-      "tag": "c:aluminum_ore"
-    },
-    {
-      "tag": "c:aluminum_ingot"
-    }
-  ],
+  "ingredient":  {
+    "tag": "c:aluminum_ore"
+  },
   "result": {
     "item": "c:aluminum_dust",
     "count": 2

@@ -1,0 +1,10 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient":  {
+    "tag": "c:lead_ingot"
+  },
+  "result": {
+    "item": "c:lead_dust",
+    "count": 1
+  }
+}

@@ -1,10 +1,10 @@
 {
   "type": "composableautomation:exploding",
-  "ingredient": {
-    "tag": "c:electrum_ingot"
+  "ingredient":  {
+    "tag": "c:lead_ore"
   },
   "result": {
-    "item": "c:electrum_dust",
+    "item": "c:lead_dust",
     "count": 2
   }
 }

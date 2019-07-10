@@ -1,0 +1,10 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient":  {
+    "tag": "c:osmium_ingot"
+  },
+  "result": {
+    "item": "c:osmium_dust",
+    "count": 1
+  }
+}

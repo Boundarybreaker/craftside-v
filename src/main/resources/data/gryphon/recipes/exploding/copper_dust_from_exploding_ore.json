@@ -1,10 +1,10 @@
 {
   "type": "composableautomation:exploding",
-  "ingredient": {
-    "tag": "c:brass_ingot"
+  "ingredient":  {
+    "tag": "c:copper_ore"
   },
   "result": {
-    "item": "c:brass_dust",
+    "item": "c:copper_dust",
     "count": 2
   }
 }

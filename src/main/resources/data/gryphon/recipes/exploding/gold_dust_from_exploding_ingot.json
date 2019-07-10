@@ -1,0 +1,10 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient":  {
+    "item": "minecraft:gold_ingot"
+  },
+  "result": {
+    "item": "c:gold_dust",
+    "count": 1
+  }
+}

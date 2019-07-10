@@ -1,13 +1,8 @@
 {
   "type": "composableautomation:exploding",
-  "ingredient": [
-    {
-      "tag": "c:cobalt_ore"
-    },
-    {
-      "tag": "c:cobalt_ingot"
-    }
-  ],
+  "ingredient":  {
+    "tag": "c:cobalt_ore"
+  },
   "result": {
     "item": "c:cobalt_dust",
     "count": 2

@@ -1,0 +1,10 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient":  {
+    "tag": "c:tin_ingot"
+  },
+  "result": {
+    "item": "c:tin_dust",
+    "count": 1
+  }
+}

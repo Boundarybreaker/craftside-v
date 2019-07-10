@@ -1,10 +1,10 @@
 {
   "type": "composableautomation:exploding",
   "ingredient": {
-    "tag": "c:plutonium_ingot"
+    "tag": "c:electrum_ingot"
   },
   "result": {
-    "item": "c:plutonium_dust",
-    "count": 2
+    "item": "c:electrum_dust",
+    "count": 1
   }
 }

@@ -1,13 +1,8 @@
 {
   "type": "composableautomation:exploding",
-  "ingredient": [
-    {
-      "tag": "c:silver_ore"
-    },
-    {
-      "tag": "c:silver_ingot"
-    }
-  ],
+  "ingredient":  {
+    "tag": "c:silver_ore"
+  },
   "result": {
     "item": "c:silver_dust",
     "count": 2

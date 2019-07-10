@@ -1,10 +1,10 @@
 {
   "type": "composableautomation:exploding",
-  "ingredient": {
-    "tag": "c:uranium_ingot"
+  "ingredient":  {
+    "tag": "c:palladium_ore"
   },
   "result": {
-    "item": "c:uranium_dust",
+    "item": "c:palladium_dust",
     "count": 2
   }
 }

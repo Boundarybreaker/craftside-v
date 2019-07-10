@@ -1,0 +1,10 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient":  {
+    "tag": "c:cobalt_ingot"
+  },
+  "result": {
+    "item": "c:cobalt_dust",
+    "count": 1
+  }
+}

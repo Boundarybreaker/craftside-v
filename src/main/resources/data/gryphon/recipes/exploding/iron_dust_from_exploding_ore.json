@@ -1,10 +1,10 @@
 {
   "type": "composableautomation:exploding",
-  "ingredient": {
-    "tag": "c:steel_ingot"
+  "ingredient":  {
+    "item": "minecraft:iron_ore"
   },
   "result": {
-    "item": "c:steel_dust",
+    "item": "c:iron_dust",
     "count": 2
   }
 }

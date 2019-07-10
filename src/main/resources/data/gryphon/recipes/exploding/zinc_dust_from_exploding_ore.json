@@ -1,13 +1,8 @@
 {
   "type": "composableautomation:exploding",
-  "ingredient": [
-    {
-      "tag": "c:zinc_ore"
-    },
-    {
-      "tag": "c:zinc_ingot"
-    }
-  ],
+  "ingredient":  {
+    "tag": "c:zinc_ore"
+  },
   "result": {
     "item": "c:zinc_dust",
     "count": 2

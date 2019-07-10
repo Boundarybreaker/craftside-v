@@ -1,10 +1,10 @@
 {
   "type": "composableautomation:exploding",
   "ingredient": {
-    "tag": "c:thorium_ingot"
+    "tag": "c:uranium_ingot"
   },
   "result": {
-    "item": "c:thorium_dust",
-    "count": 2
+    "item": "c:uranium_dust",
+    "count": 1
   }
 }
