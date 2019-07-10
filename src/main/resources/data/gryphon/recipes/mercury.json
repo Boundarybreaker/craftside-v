@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:cod"
     },
     {
-      "tag": "c:lead_ingot"
+      "item": "minecraft:ghast_tear"
     }
   ],
   "result": {
-    "item": "c:steel_ingot",
-    "count": 2
+    "item": "c:mercury",
+    "count": 1
   }
 }

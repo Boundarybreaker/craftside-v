@@ -1,0 +1,15 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient": [
+    {
+      "tag": "c:titanium_ore"
+    },
+    {
+      "tag": "c:titanium_ingot"
+    }
+  ],
+  "result": {
+    "item": "c:titanium_dust",
+    "count": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient": [
+    {
+      "tag": "c:copper_ore"
+    },
+    {
+      "tag": "c:copper_ingot"
+    }
+  ],
+  "result": {
+    "item": "c:copper_dust",
+    "count": 2
+  }
+}

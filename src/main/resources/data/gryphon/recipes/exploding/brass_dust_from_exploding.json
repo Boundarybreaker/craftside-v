@@ -1,0 +1,10 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient": {
+    "tag": "c:brass_ingot"
+  },
+  "result": {
+    "item": "c:brass_dust",
+    "count": 2
+  }
+}

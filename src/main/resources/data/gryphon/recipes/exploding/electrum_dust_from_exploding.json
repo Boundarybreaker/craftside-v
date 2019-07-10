@@ -1,0 +1,10 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient": {
+    "tag": "c:electrum_ingot"
+  },
+  "result": {
+    "item": "c:electrum_dust",
+    "count": 2
+  }
+}

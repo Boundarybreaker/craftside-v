@@ -1,0 +1,15 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient": [
+    {
+      "tag": "c:iridium_ore"
+    },
+    {
+      "tag": "c:iridium_ingot"
+    }
+  ],
+  "result": {
+    "item": "c:iridium_dust",
+    "count": 2
+  }
+}

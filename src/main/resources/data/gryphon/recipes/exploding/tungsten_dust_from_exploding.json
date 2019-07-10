@@ -1,0 +1,15 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient": [
+    {
+      "tag": "c:tungsten_ore"
+    },
+    {
+      "tag": "c:tungsten_ingot"
+    }
+  ],
+  "result": {
+    "item": "c:tungsten_dust",
+    "count": 2
+  }
+}

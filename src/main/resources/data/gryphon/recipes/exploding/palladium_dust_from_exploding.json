@@ -1,0 +1,15 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient": [
+    {
+      "tag": "c:palladium_ore"
+    },
+    {
+      "tag": "c:palladium_ingot"
+    }
+  ],
+  "result": {
+    "item": "c:palladium_dust",
+    "count": 2
+  }
+}

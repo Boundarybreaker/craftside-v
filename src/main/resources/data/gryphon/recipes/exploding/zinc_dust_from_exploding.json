@@ -1,0 +1,15 @@
+{
+  "type": "composableautomation:exploding",
+  "ingredient": [
+    {
+      "tag": "c:zinc_ore"
+    },
+    {
+      "tag": "c:zinc_ingot"
+    }
+  ],
+  "result": {
+    "item": "c:zinc_dust",
+    "count": 2
+  }
+}

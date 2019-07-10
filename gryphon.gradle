@@ -43,7 +43,8 @@ ext {
             curse.resolve("adorn", "2730689"),
             curse.resolve("appleskin", "2714340"),
             curse.resolve("arcanemagic", "2738456"),
-            curse.resolve("antique-atlas", "2732993"),
+            //crashes
+//            curse.resolve("antique-atlas", "2732993"),
             curse.resolve("anvil-fix", "2682329"),
             curse.resolve("auto-config", "2713081"),
             curse.resolve("blockus", "2725152"),
@@ -64,6 +65,8 @@ ext {
             curse.resolve("foamfix-for-minecraft", "2704799"),
             curse.resolve("glassential-fabric", "2706748"),
             curse.resolve("light-overlay", "2734244"),
+            curse.resolve("locky", "2719450"),
+            curse.resolve("materialisation", "2735964"),
             curse.resolve("metatips", "2704916"),
             curse.resolve("multiblock-api", "2696818"),
             curse.resolve("okyanus", "2735367"),

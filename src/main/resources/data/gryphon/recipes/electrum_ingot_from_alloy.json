@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:gold_ingot"
     },
     {
-      "tag": "c:lead_ingot"
+      "tag": "c:silver_ingot"
     }
   ],
   "result": {
-    "item": "c:steel_ingot",
+    "item": "c:electrum_ingot",
     "count": 2
   }
 }
