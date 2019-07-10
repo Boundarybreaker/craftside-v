@@ -1,0 +1,235 @@
+{
+  // If true, vanilla's ore gen will be cancelled.
+  "override_vanilla_generation": false,
+  // Settings for ore generation. If an ore isn't registered, it won't generate.
+  "ores": {
+    "aluminum": {
+      "enabled": true,
+      "ore_block": "c:aluminum_ore",
+      "min_height": 6,
+      "max_height": 48,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 4,
+      "cluster_size": 8
+    },
+    "amethyst": {
+      "enabled": false,
+      "ore_block": "c:amethyst_ore",
+      "min_height": 6,
+      "max_height": 16,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 1,
+      "cluster_size": 5
+    },
+    "cobalt": {
+      "enabled": true,
+      "ore_block": "c:cobalt_ore",
+      "min_height": 6,
+      "max_height": 20,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 4,
+      "cluster_size": 3
+    },
+    "copper": {
+      "enabled": true,
+      "ore_block": "c:copper_ore",
+      "min_height": 32,
+      "max_height": 96,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 20,
+      "cluster_size": 10
+    },
+    "iridium": {
+      "enabled": true,
+      "ore_block": "c:iridium_ore",
+      "min_height": 6,
+      "max_height": 16,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 2,
+      "cluster_size": 3
+    },
+    "lead": {
+      "enabled": true,
+      "ore_block": "c:lead_ore",
+      "min_height": 6,
+      "max_height": 48,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 4,
+      "cluster_size": 8
+    },
+    "osmium": {
+      "enabled": true,
+      "ore_block": "c:osmium_ore",
+      "min_height": 6,
+      "max_height": 16,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 2,
+      "cluster_size": 3
+    },
+    "palladium": {
+      "enabled": true,
+      "ore_block": "c:palladium_ore",
+      "min_height": 6,
+      "max_height": 16,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 2,
+      "cluster_size": 3
+    },
+    "peridot": {
+      "enabled": false,
+      "ore_block": "c:peridot_ore",
+      "min_height": 6,
+      "max_height": 16,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 1,
+      "cluster_size": 5
+    },
+    "platinum": {
+      "enabled": true,
+      "ore_block": "c:platinum_ore",
+      "min_height": 6,
+      "max_height": 16,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 2,
+      "cluster_size": 3
+    },
+    "ruby": {
+      "enabled": false,
+      "ore_block": "c:ruby_ore",
+      "min_height": 6,
+      "max_height": 16,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 1,
+      "cluster_size": 5
+    },
+    "sapphire": {
+      "enabled": false,
+      "ore_block": "c:sapphire_ore",
+      "min_height": 6,
+      "max_height": 16,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 1,
+      "cluster_size": 5
+    },
+    "silver": {
+      "enabled": true,
+      "ore_block": "c:silver_ore",
+      "min_height": 6,
+      "max_height": 48,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 4,
+      "cluster_size": 8
+    },
+    "tin": {
+      "enabled": true,
+      "ore_block": "c:tin_ore",
+      "min_height": 6,
+      "max_height": 48,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 8,
+      "cluster_size": 8
+    },
+    "titanium": {
+      "enabled": true,
+      "ore_block": "c:titanium_ore",
+      "min_height": 6,
+      "max_height": 32,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 4,
+      "cluster_size": 5
+    },
+    "topaz": {
+      "enabled": false,
+      "ore_block": "c:topaz_ore",
+      "min_height": 6,
+      "max_height": 16,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 1,
+      "cluster_size": 5
+    },
+    "tungsten": {
+      "enabled": true,
+      "ore_block": "c:tungsten_ore",
+      "min_height": 6,
+      "max_height": 32,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 4,
+      "cluster_size": 8
+    },
+    "uranium": {
+      "enabled": true,
+      "ore_block": "c:uranium_ore",
+      "min_height": 6,
+      "max_height": 32,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 4,
+      "cluster_size": 4
+    },
+    "zinc": {
+      "enabled": true,
+      "ore_block": "c:zinc_ore",
+      "min_height": 6,
+      "max_height": 48,
+      "dimensions_blacklist": [
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "cluster_count": 8,
+      "cluster_size": 8
+    }
+  }
+}
